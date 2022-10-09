@@ -141,13 +141,13 @@ body a {
     border-radius: 20px;
   }
   
-#home-content a {
-    text-decoration: none;
+#home-content h2, #home-content p {
+    text-align: center;
     color: #FFFFFF;
   }
   
-#home-content h2, #home-content p {
-    text-align: center;
+.pointer {
+    cursor: pointer;
   }
 
 #about-the-band {
