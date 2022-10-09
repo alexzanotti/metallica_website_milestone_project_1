@@ -149,5 +149,25 @@ body a {
 #home-content h2, #home-content p {
     text-align: center;
   }
+
+
+/* || Gallery Page */
+
+.gallery {
+    column-count: 3;
+    clear: both;
+    column-gap: 0px;
+    line-height: 0;
+  }
+  
+.gallery img{
+      width: 100%;
+  }
+  
+#gallery-container h1, #gallery-container h2 {
+    text-align: center;
+    padding: 20px;
+  }
+  
   
   
