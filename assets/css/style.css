@@ -280,3 +280,19 @@ iframe {
       flex-direction: column;
     }
   }
+
+
+/* || Gallery Page Media Queries */
+
+
+@media screen and (max-width: 992px) {
+    .gallery {
+    column-count: 2;
+    }
+  }
+   
+@media screen and (max-width: 576px) {
+    .gallery {
+    column-count: 1;
+    }
+  }
