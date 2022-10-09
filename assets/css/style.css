@@ -69,4 +69,53 @@ body a {
     border-radius: 5px;  
   }
   
- 
+
+/* || Footer */
+
+#footer {
+    overflow: hidden;
+    background-color: #000000;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+#footer h2 {
+    color: #FFFFFF;
+  }
+  
+#sitemap ul, 
+#social-links ul {
+    list-style-type: none;
+  }
+  
+#sitemap li,
+#social-links li{
+    display: inline;
+  }
+  
+#sitemap h2,
+#social-links h2{
+    text-align: center;
+  }
+  
+  
+.fa-brands, 
+.fa-image, 
+.fa-person,  
+.fa-house,
+.fa-music {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 20px;
+  }
+  
+.fa-brands:hover,
+.fa-image:hover,
+.fa-person:hover,
+.fa-house:hover,
+.fa-music:hover{
+    color: #FF0000;
+  }
+  
+  
