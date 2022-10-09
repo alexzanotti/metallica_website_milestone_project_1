@@ -30,3 +30,43 @@ body a {
   font-family: 'Roboto', sans-serif;
 }
 
+
+/* || Header */
+
+
+#navbar{
+    overflow: hidden;
+    background-color: #000000;
+    padding: 20px 10px;
+  }
+  
+#navbar img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  
+#navbar ul {
+    float:right;
+  }
+  
+#navbar li {
+    display: inline;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  
+#navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    border: 10px;
+  }
+  
+#header li a:hover {
+    color: #FF0000;
+    border-radius: 5px;  
+  }
+  
+ 
