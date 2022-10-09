@@ -169,5 +169,20 @@ body a {
     padding: 20px;
   }
   
+
+/* || Media Page */
+
+audio {
+    width: 100%;
+    height: 50px;
+  }
+  
+iframe {
+    padding: 5%;
+  
+  }
+
+
+
   
   
