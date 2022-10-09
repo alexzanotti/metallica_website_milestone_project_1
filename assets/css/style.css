@@ -118,4 +118,36 @@ body a {
     color: #FF0000;
   }
   
+
+/* || Home Page */
+
+
+#about-text {
+    text-align: center;
+    margin: 5%;
+  }
+  
+#home-content {
+    overflow: hidden;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+#home-content div {
+    padding: 40px 20px;
+    margin: 20px;
+    background-color: #FF0000;
+    border-radius: 20px;
+  }
+  
+#home-content a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+#home-content h2, #home-content p {
+    text-align: center;
+  }
+  
   
