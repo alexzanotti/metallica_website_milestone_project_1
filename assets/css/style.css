@@ -187,6 +187,12 @@ iframe {
   
   }
 
+/* credit to https://github.com/LinusYong123/music_player/blob/main/style.css for audio styling below*/
+audio::-webkit-media-controls-panel{
+    background-color: #FF0000;;
+}
+
+
 
 /* || Members Page */
 
