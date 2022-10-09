@@ -183,6 +183,60 @@ iframe {
   }
 
 
+/* || Members Page */
 
+#current-members {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+.member img {
+    max-width: 30%;
+  }
+  
+.member table {
+    font-size: 20px;
+  }
+  
+.member td, .member h2 {
+    padding: 10px 20px;
+  }
+  
+.member h2 {
+    text-align: center;
+  }
+  
+.black {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+  }
+  
+.white {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  
+.red {
+    color: red;
+  }
+  
+#black-background {
+    background-color: #000000;
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+#no-margin-top {
+    margin-top: 0;
+  }
   
   
