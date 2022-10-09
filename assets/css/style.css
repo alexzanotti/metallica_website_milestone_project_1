@@ -296,3 +296,38 @@ iframe {
     column-count: 1;
     }
   }
+
+
+/* || Media Page Media Queries */
+
+
+/* || Members Page Media Queries */
+
+
+@media screen and (max-width: 992px) {
+    .table-member td{
+      font-size: 16px;
+    }
+  }
+  
+@media screen and (max-width: 576px) {
+    .member {
+      display: block;
+      text-align: center;
+    }
+  
+    .table-member {
+      margin: 0 auto;
+    }
+  
+    .table-member td{
+      font-size: 16px;
+    }
+  
+    .member img {
+    max-width: 50%;
+    }
+    .member td {
+    padding: 5px;
+    }
+  }
