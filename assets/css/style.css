@@ -195,6 +195,17 @@ audio::-webkit-media-controls-panel{
     background-color: #FF0000;;
 }
 
+.media-margin {
+  margin: 5%;
+}
+
+.media-margin h2 {
+  margin: 50px 0;
+}
+
+.row div {
+  margin: 20px 0;
+}
 
 
 /* || Members Page */
