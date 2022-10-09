@@ -13,6 +13,9 @@
     max-width: 100%;
   }
 
+.red {
+    color: red;
+  }
 
   /* || Typography */
 
@@ -233,10 +236,6 @@ audio::-webkit-media-controls-panel{
 .white {
     background-color: #FFFFFF;
     color: #000000;
-  }
-  
-.red {
-    color: red;
   }
   
 #black-background {
