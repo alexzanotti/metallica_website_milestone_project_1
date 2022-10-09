@@ -143,6 +143,10 @@ body a {
     background-color: #FF0000;
     border-radius: 20px;
   }
+
+#home-content div:hover {
+    background-color: #A31D00;  
+  }
   
 #home-content h2, #home-content p {
     text-align: center;
@@ -158,6 +162,15 @@ body a {
     color: #ff0000;
   }
 
+#about-text a {
+    text-decoration: none;
+    color: #5A5A5A;
+  }
+  
+#about-text a:hover {
+    text-decoration: none;
+    color: #3b3b3b;
+  }
 
 /* || Gallery Page */
 
