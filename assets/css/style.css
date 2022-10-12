@@ -13,8 +13,8 @@
     max-width: 100%;
   }
 
-.red {
-    color: red;
+.grey {
+    color: #808080;
   }
 
 /* || Typography */
@@ -160,7 +160,6 @@ body a {
 
 #about-the-band {
     padding-bottom: 5%;
-    color: #ff0000;
   }
 
 #about-text a {
