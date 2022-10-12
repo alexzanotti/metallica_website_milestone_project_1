@@ -147,12 +147,12 @@ body a {
 #home-content div {
     padding: 40px 20px;
     margin: 20px;
-    background-color: #FF0000;
+    background-color: #5A5A5A;
     border-radius: 20px;
   }
 
 #home-content div:hover {
-    background-color: #A31D00;  
+    background-color: #3b3b3b;  
   }
   
 #home-content h2, #home-content p {
