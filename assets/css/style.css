@@ -125,6 +125,12 @@ body a {
 
 /* || Home Page */
 
+#para-image {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 50%;
+  height: auto;
+}
 
 #about-text {
     text-align: center;
@@ -294,7 +300,10 @@ audio::-webkit-media-controls-panel{
       display: block;
       margin: 0 auto;
     }
-    
+
+    #header-picture {
+      display: none;
+    }    
     
   }
 
@@ -318,6 +327,11 @@ audio::-webkit-media-controls-panel{
     #home-content {
       flex-direction: column;
     }
+    #para-image {
+      float: none;
+      width:100%;
+      margin-bottom: 5%;
+    }  
   }
 
 
