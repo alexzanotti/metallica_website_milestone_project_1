@@ -171,6 +171,7 @@ The following sites were used:
 * Font Awesome
 * flexboxfroggy
 * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet - this is where syntax for the README.md & TESTING.md files were sourced
+* www.freeformatter.com
 
 # Acknowledgements
 I would like to thank the Code Institute for providing the course content that has allowed me to build this website.

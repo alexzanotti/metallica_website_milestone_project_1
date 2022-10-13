@@ -1,92 +1,83 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Metallica Home</title>
-  <link rel="icon" href="assets/images/Metallica.jpeg">
-  <!-- Links to CSS, bootstrap & font awesome have been added-->
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/1c7b023354.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-  <!-- Navbar containing metallica icon and Home, Gallery, Band Members & Media options -->
-  <header id="header">
-    <nav id="navbar">
-      <a href="index.html"><img src="assets/images/Metallica.jpeg" alt="Metallica Icon" aria-label="Metallica Icon"></a>
-      <ul>
-        <li><a href="index.html" style="color:#FF0000;">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="members.html">Band Members</a></li>
-        <li><a href="media.html">Media</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Metallica header Picture -->
-  <div id="header-picture">
-    <img src="assets/images/Metallica_logo.png" alt="Metallica Header Picture" aria-label="Metallica Header Picture">
-  </div>
-
-  <!-- About the band section - the information was sources from Wikipedia - there is a link to the actual metallica site-->
-  <section id="about-text">
-    <h1 id="about-the-band" class="grey">About Metallica</h1>
-    <p><img src="assets/images/Metallica_Live.jpeg" id="para-image" aria-label="Metllica on Stage"><a href="https://www.metallica.com/" target=”_blank”>Metallica</a> is an American heavy metal band. The band was formed in 1981 in Los Angeles by vocalist/guitarist James Hetfield and drummer Lars Ulrich and has been based in San Francisco for most of its career.</p>
-    <p>Metallica's current lineup comprises founding members and primary songwriters Hetfield and Ulrich, longtime lead guitarist Kirk Hammett, and bassist Robert Trujillo. Guitarist Dave Mustaine and bassists Ron McGovney, Cliff Burton, and Jason Newsted are former members of the band.</p>
-    <p>Metallica first found commercial success with the release of its third album, Master of Puppets (1986), cited as one of the heaviest metal albums and the band's best work. 
-  The band's next album, ...And Justice for All (1988), gave Metallica its first Grammy Award nomination. 
-  Their self titled fifth album, Metallica (1991), was the band's first not to root predominantly in thrash metal. It appealed to a more mainstream audience, achieving substantial commercial success and selling over 16 million copies in the United States to date; making it the best-selling album of the SoundScan era.</p>
-    <p>After experimenting with different genres and directions in subsequent releases, Metallica returned to its thrash metal roots with the release of its ninth album, Death Magnetic (2008), which drew similar praise to that of the band's earlier albums. The band's most recent album is Hardwired... to Self-Destruct (2016).</p>
-    <p>Metallica was the subject of the acclaimed 2004 documentary film Metallica: Some Kind of Monster, which documented the troubled production of the band's eighth album, St. Anger (2003), and the internal struggles within the band at the time.</p>
-    <p>In 2009, Metallica was inducted into the Rock and Roll Hall of Fame. The band co-wrote the screenplay for and starred alongside Dane DeHaan in the 2013 concert film Metallica: Through the Never, in which the band performed live against a fictional thriller storyline.</p>
-    <p>Metallica has released ten studio albums, four live albums, twelve video albums, a cover album, two extended plays, 37 singles and 39 music videos.</p> 
-    <p>The band has won nine Grammy Awards from 23 nominations, and its last six studio albums (beginning with Metallica) have consecutively debuted at number one on the Billboard 200. Metallica ranks as one of the most commercially successful bands of all time, having sold over 125 million albums worldwide as of 2018.</p>
-    <p>Metallica has been listed as one of the greatest artists of all time by magazines such as Rolling Stone, which ranked them at no. 61 on its 100 Greatest Artists of All Time list.</p>
-  </section>
-  
-  <!-- A section gives the user an option to click to view other areas of the site - credit to https://thomas.vanhoutte.be/miniblog/making-a-div-element-clickable-in-html/#:~:text=We%20simply%20add%20the%20onlcick,make%20the%20whole%20div%20clickable. for onclick code & pointer class styling-->
-  <section id="home-content">
-    <div class="pointer" onclick="location.href='gallery.html';">
-      <h2>Gallery</h2>
-      <p>Click here to view pictures of the band since inception</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Metallica Home</title>
+    <link rel="icon" href="assets/images/Metallica.jpeg">
+    <!-- Links to CSS, bootstrap & font awesome have been added-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1c7b023354.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar containing metallica icon and Home, Gallery, Band Members & Media options -->
+    <header id="header">
+      <nav id="navbar">
+        <a href="index.html"><img src="assets/images/Metallica.jpeg" alt="Metallica Icon" aria-label="Metallica Icon"></a>
+        <ul>
+          <li><a href="index.html" style="color:#FF0000;">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="members.html">Band Members</a></li>
+          <li><a href="media.html">Media</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Metallica header Picture -->
+    <div id="header-picture">
+      <img src="assets/images/Metallica_logo.png" alt="Metallica Header Picture" aria-label="Metallica Header Picture">
     </div>
-    <div class="pointer" onclick="location.href='members.html';">
-      <h2>Band Members</h2>
-      <p>Click here to view current and previous band members</p>
-    </div>
-    <div class="pointer" onclick="location.href='media.html';">
-      <h2>Media</h2>
-      <p>Click here to view & listen to the bands music/interviews</p>
-    </div>
-  </section>
-
-  <!-- The footer contains social links to the official metallica facebook, twitter, youtube and instagram pages, as well as clickable sitemap icons from font awesome -->
-  <footer id="footer">
-    <div id="social-links">
-    <h2>Social Links</h2>
-    <ul>
-       <li><a href="https://en-gb.facebook.com/Metallica/" target="_blank" aria-label="Facebook Social Link"><i class="fa-brands fa-facebook"></i></a></li>
-       <li><a href="https://twitter.com/Metallica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" aria-label="Twitter Social Link"><i class="fa-brands fa-twitter"></i></a></li>
-       <li><a href="https://www.youtube.com/channel/UCbulh9WdLtEXiooRcYK7SWw" target="_blank" aria-label="Youtube Social Link"><i class="fa-brands fa-youtube"></i></a></li>
-       <li><a href="https://www.instagram.com/metallica/" target="_blank" aria-label="Instagram Social Link"><i class="fa-brands fa-instagram"></i></a></li>
-     </ul>
-   </div>
-   <div id="sitemap">
-     <h2>Site Map</h2>
-     <ul>
-         <li><a href="index.html" aria-label="Home"><i class="fa-solid fa-house"></i></a></li>
-         <li><a href="gallery.html" aria-label="Gallery"><i class="fa-regular fa-image"></i></a></li>
-         <li><a href="members.html" aria-label="Band Members"><i class="fa-solid fa-person"></i></a></li>
-         <li><a href="media.html" aria-label="Media"><i class="fa-solid fa-music"></i></a></li>
-       </ul>
-   </div>
-   </footer>
-
-</body>
-
+    <!-- About the band section - the information was sources from Wikipedia - there is a link to the actual metallica site-->
+    <section id="about-text">
+      <h1 id="about-the-band" class="grey">About Metallica</h1>
+      <p><img src="assets/images/Metallica_Live.jpeg" id="para-image" aria-label="Metllica on Stage"><a href="https://www.metallica.com/" target=”_blank”>Metallica</a> is an American heavy metal band. The band was formed in 1981 in Los Angeles by vocalist/guitarist James Hetfield and drummer Lars Ulrich and has been based in San Francisco for most of its career.</p>
+      <p>Metallica's current lineup comprises founding members and primary songwriters Hetfield and Ulrich, longtime lead guitarist Kirk Hammett, and bassist Robert Trujillo. Guitarist Dave Mustaine and bassists Ron McGovney, Cliff Burton, and Jason Newsted are former members of the band.</p>
+      <p>Metallica first found commercial success with the release of its third album, Master of Puppets (1986), cited as one of the heaviest metal albums and the band's best work. 
+        The band's next album, ...And Justice for All (1988), gave Metallica its first Grammy Award nomination. 
+        Their self titled fifth album, Metallica (1991), was the band's first not to root predominantly in thrash metal. It appealed to a more mainstream audience, achieving substantial commercial success and selling over 16 million copies in the United States to date; making it the best-selling album of the SoundScan era.
+      </p>
+      <p>After experimenting with different genres and directions in subsequent releases, Metallica returned to its thrash metal roots with the release of its ninth album, Death Magnetic (2008), which drew similar praise to that of the band's earlier albums. The band's most recent album is Hardwired... to Self-Destruct (2016).</p>
+      <p>Metallica was the subject of the acclaimed 2004 documentary film Metallica: Some Kind of Monster, which documented the troubled production of the band's eighth album, St. Anger (2003), and the internal struggles within the band at the time.</p>
+      <p>In 2009, Metallica was inducted into the Rock and Roll Hall of Fame. The band co-wrote the screenplay for and starred alongside Dane DeHaan in the 2013 concert film Metallica: Through the Never, in which the band performed live against a fictional thriller storyline.</p>
+      <p>Metallica has released ten studio albums, four live albums, twelve video albums, a cover album, two extended plays, 37 singles and 39 music videos.</p>
+      <p>The band has won nine Grammy Awards from 23 nominations, and its last six studio albums (beginning with Metallica) have consecutively debuted at number one on the Billboard 200. Metallica ranks as one of the most commercially successful bands of all time, having sold over 125 million albums worldwide as of 2018.</p>
+      <p>Metallica has been listed as one of the greatest artists of all time by magazines such as Rolling Stone, which ranked them at no. 61 on its 100 Greatest Artists of All Time list.</p>
+    </section>
+    <!-- A section gives the user an option to click to view other areas of the site - credit to https://thomas.vanhoutte.be/miniblog/making-a-div-element-clickable-in-html/#:~:text=We%20simply%20add%20the%20onlcick,make%20the%20whole%20div%20clickable. for onclick code & pointer class styling-->
+    <section id="home-content">
+      <div class="pointer" onclick="location.href='gallery.html';">
+        <h2>Gallery</h2>
+        <p>Click here to view pictures of the band since inception</p>
+      </div>
+      <div class="pointer" onclick="location.href='members.html';">
+        <h2>Band Members</h2>
+        <p>Click here to view current and previous band members</p>
+      </div>
+      <div class="pointer" onclick="location.href='media.html';">
+        <h2>Media</h2>
+        <p>Click here to view & listen to the bands music/interviews</p>
+      </div>
+    </section>
+    <!-- The footer contains social links to the official metallica facebook, twitter, youtube and instagram pages, as well as clickable sitemap icons from font awesome -->
+    <footer id="footer">
+      <div id="social-links">
+        <h2>Social Links</h2>
+        <ul>
+          <li><a href="https://en-gb.facebook.com/Metallica/" target="_blank" aria-label="Facebook Social Link"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/Metallica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" aria-label="Twitter Social Link"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCbulh9WdLtEXiooRcYK7SWw" target="_blank" aria-label="Youtube Social Link"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="https://www.instagram.com/metallica/" target="_blank" aria-label="Instagram Social Link"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div id="sitemap">
+        <h2>Site Map</h2>
+        <ul>
+          <li><a href="index.html" aria-label="Home"><i class="fa-solid fa-house"></i></a></li>
+          <li><a href="gallery.html" aria-label="Gallery"><i class="fa-regular fa-image"></i></a></li>
+          <li><a href="members.html" aria-label="Band Members"><i class="fa-solid fa-person"></i></a></li>
+          <li><a href="media.html" aria-label="Media"><i class="fa-solid fa-music"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
