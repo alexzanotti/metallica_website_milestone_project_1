@@ -2,20 +2,20 @@
 
 
 * {
-    margin:0;
-    padding:0;
-    border:0;
-    box-sizing: border-box;
-  }
-  
-  
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
 #header-picture img {
-    max-width: 100%;
-  }
+	max-width: 100%;
+}
 
 .grey {
-    color: #808080;
-  }
+	color: #808080;
+}
 
 /* || Typography */
 
@@ -28,207 +28,210 @@ body h2,
 body h3,
 body td,
 body a {
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 
 /* || Header */
 
 
-#navbar{
-    overflow: hidden;
-    background-color: #000000;
-    padding: 20px 10px;
-  }
-  
+#navbar {
+	overflow: hidden;
+	background-color: #000000;
+	padding: 20px 10px;
+}
+
 #navbar img {
-    float: left;
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-  }
-  
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+}
+
 #navbar ul {
-    float:right;
-  }
-  
+	float: right;
+}
+
 #navbar li {
-    display: inline;
-    margin-right: 10px;
-    padding-right: 10px;
-  }
-  
+	display: inline;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
 #navbar a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 1.5rem;
-    border: 10px;
-  }
-  
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	border: 10px;
+}
+
 #header li a:hover {
-    color: #FF0000;
-    border-radius: 5px;  
-  }
-  
+	color: #FF0000;
+	border-radius: 5px;
+}
+
 
 /* || Footer */
 
 
 #footer {
-    overflow: hidden;
-    background-color: #000000;
-    padding: 20px 10px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
+	overflow: hidden;
+	background-color: #000000;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
 #footer h2 {
-    color: #FFFFFF;
-  }
-  
-#sitemap ul, 
+	color: #FFFFFF;
+}
+
+#sitemap ul,
 #social-links ul {
-    list-style-type: none;
-  }
-  
+	list-style-type: none;
+}
+
 #sitemap li,
-#social-links li{
-    display: inline;
-  }
-  
+#social-links li {
+	display: inline;
+}
+
 #sitemap h2,
-#social-links h2{
-    text-align: center;
-  }
-  
-  
-.fa-brands, 
-.fa-image, 
-.fa-person,  
+#social-links h2 {
+	text-align: center;
+}
+
+
+.fa-brands,
+.fa-image,
+.fa-person,
 .fa-house,
 .fa-music {
-    color: #ffffff;
-    font-size: 2rem;
-    margin: 20px;
-  }
-  
+	color: #ffffff;
+	font-size: 2rem;
+	margin: 20px;
+}
+
 .fa-brands:hover,
 .fa-image:hover,
 .fa-person:hover,
 .fa-house:hover,
-.fa-music:hover{
-    color: #FF0000;
-  }
-  
+.fa-music:hover {
+	color: #FF0000;
+}
+
 
 /* || Home Page */
 
 #para-image {
-  float: left;
-  margin: 0 20px 20px 0;
-  width: 50%;
-  height: auto;
+	float: left;
+	margin: 0 20px 20px 0;
+	width: 50%;
+	height: auto;
 }
 
 #about-text {
-    text-align: center;
-    margin: 5%;
-  }
-  
+	text-align: center;
+	margin: 5%;
+}
+
 #home-content {
-    overflow: hidden;
-    margin-bottom: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
+	overflow: hidden;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
 #home-content div {
-    padding: 40px 20px;
-    margin: 20px;
-    background-color: #5A5A5A;
-    border-radius: 20px;
-  }
+	padding: 40px 20px;
+	margin: 20px;
+	background-color: #5A5A5A;
+	border-radius: 20px;
+}
 
 #home-content div:hover {
-    background-color: #3b3b3b;  
-  }
-  
-#home-content h2, #home-content p {
-    text-align: center;
-    color: #FFFFFF;
-  }
-  
+	background-color: #3b3b3b;
+}
+
+#home-content h2,
+#home-content p {
+	text-align: center;
+	color: #FFFFFF;
+}
+
 .pointer {
-    cursor: pointer;
-  }
+	cursor: pointer;
+}
 
 #about-the-band {
-    padding-bottom: 5%;
-  }
+	padding-bottom: 5%;
+}
 
 #about-text a {
-    text-decoration: none;
-    color: #5A5A5A;
-  }
-  
+	text-decoration: none;
+	color: #5A5A5A;
+}
+
 #about-text a:hover {
-    text-decoration: none;
-    color: #3b3b3b;
-  }
+	text-decoration: none;
+	color: #3b3b3b;
+}
 
 
 /* || Gallery Page */
 
 
 .gallery {
-    column-count: 3;
-    clear: both;
-    column-gap: 0px;
-    line-height: 0;
-  }
-  
-.gallery img{
-      width: 100%;
-  }
-  
-#gallery-container h1, #gallery-container h2 {
-    text-align: center;
-     margin: 5%;
-  }
-  
+	column-count: 3;
+	clear: both;
+	column-gap: 0px;
+	line-height: 0;
+}
+
+.gallery img {
+	width: 100%;
+}
+
+#gallery-container h1,
+#gallery-container h2 {
+	text-align: center;
+	margin: 5%;
+}
+
 
 /* || Media Page */
 
 
 audio {
-    width: 100%;
-    height: 50px;
-  }
-  
+	width: 100%;
+	height: 50px;
+}
+
 iframe {
-    padding: 5%;
-  
-  }
+	padding: 5%;
+
+}
 
 /* credit to https://github.com/LinusYong123/music_player/blob/main/style.css for audio styling below*/
-audio::-webkit-media-controls-panel{
-    background-color: #FF0000;;
+audio::-webkit-media-controls-panel {
+	background-color: #FF0000;
+	;
 }
 
 .media-margin {
-  margin: 5%;
+	margin: 5%;
 }
 
 .media-margin h2 {
-  margin: 50px 0;
+	margin: 50px 0;
 }
 
 .media-margin h3 {
-  color: #FF0000;
+	color: #FF0000;
 }
 
 .row div {
-  margin: 20px 0;
+	margin: 20px 0;
 }
 
 
@@ -236,151 +239,156 @@ audio::-webkit-media-controls-panel{
 
 
 #current-members {
-    text-align: center;
-    margin: 5% 0;
-  }
-  
+	text-align: center;
+	margin: 5% 0;
+}
+
 .member {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 20px 0;
-  }
-  
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 20px 0;
+}
+
 .member img {
-    width: 30%;
-  }
-  
+	width: 30%;
+}
+
 .member table {
-    font-size: 20px;
-  }
-  
-.member td, .member h2 {
-    padding: 10px 20px;
-  }
-  
+	font-size: 20px;
+}
+
+.member td,
 .member h2 {
-    text-align: center;
-  }
-  
+	padding: 10px 20px;
+}
+
+.member h2 {
+	text-align: center;
+}
+
 .black {
-    background-color: #000000;
-    color: white;
-    padding: 20px 0;
-  }
-  
+	background-color: #000000;
+	color: white;
+	padding: 20px 0;
+}
+
 .white {
-    background-color: #FFFFFF;
-    color: #000000;
-  }
-  
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
 #black-background {
-    background-color: #000000;
-    margin-bottom: 0;
-    text-align: center;
-    padding: 20px 0;
-    color: #FF0000;
-  }
-  
+	background-color: #000000;
+	margin-bottom: 0;
+	text-align: center;
+	padding: 20px 0;
+	color: #FF0000;
+}
+
 #no-margin-top {
-    margin-top: 0;
-  }
-  
-  
+	margin-top: 0;
+}
+
+
 /* || Header Media Queries */
 
 
 @media screen and (max-width: 576px) {
-    #navbar li, #navbar ul {
-      float: none;
-      display: block;
-      text-align: center;
-      padding: 10px 0;
-    }
-    
-    #navbar img {
-      float: none;
-      display: block;
-      margin: 0 auto;
-    }
 
-    #header-picture {
-      display: none;
-    }    
-    
-  }
+	#navbar li,
+	#navbar ul {
+		float: none;
+		display: block;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	#navbar img {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#header-picture {
+		display: none;
+	}
+
+}
 
 
 /* || Footer Media Queries */
 
 
 @media screen and (max-width: 768px) {
-    #footer {
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
-  }
+	#footer {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+}
 
 
 /* || Home Page Media Queries */
 
 
 @media screen and (max-width: 576px) {
-    #home-content {
-      flex-direction: column;
-    }
-    #para-image {
-      float: none;
-      width:100%;
-      margin-bottom: 5%;
-    }  
-  }
+	#home-content {
+		flex-direction: column;
+	}
+
+	#para-image {
+		float: none;
+		width: 100%;
+		margin-bottom: 5%;
+	}
+}
 
 
 /* || Gallery Page Media Queries */
 
 
 @media screen and (max-width: 992px) {
-    .gallery {
-    column-count: 2;
-    }
-  }
-   
+	.gallery {
+		column-count: 2;
+	}
+}
+
 @media screen and (max-width: 576px) {
-    .gallery {
-    column-count: 1;
-    }
-  }
+	.gallery {
+		column-count: 1;
+	}
+}
 
 
 /* || Members Page Media Queries */
 
 
 @media screen and (max-width: 992px) {
-    .table-member td{
-      font-size: 16px;
-    }
-  }
-  
+	.table-member td {
+		font-size: 16px;
+	}
+}
+
 @media screen and (max-width: 576px) {
-    .member {
-      display: block;
-      text-align: center;
-    }
-  
-    .table-member {
-      margin: 0 auto;
-    }
-  
-    .table-member td{
-      font-size: 16px;
-    }
-  
-    .member img {
-    max-width: 50%;
-    }
-    .member td {
-    padding: 5px;
-    }
-  }
+	.member {
+		display: block;
+		text-align: center;
+	}
+
+	.table-member {
+		margin: 0 auto;
+	}
+
+	.table-member td {
+		font-size: 16px;
+	}
+
+	.member img {
+		max-width: 50%;
+	}
+
+	.member td {
+		padding: 5px;
+	}
+}
