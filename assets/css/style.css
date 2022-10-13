@@ -21,8 +21,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-
 body p,
 body ul,
 body h1,
@@ -250,7 +248,7 @@ audio::-webkit-media-controls-panel{
   }
   
 .member img {
-    max-width: 30%;
+    width: 30%;
   }
   
 .member table {
@@ -280,7 +278,8 @@ audio::-webkit-media-controls-panel{
     background-color: #000000;
     margin-bottom: 0;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px 0;
+    color: #FF0000;
   }
   
 #no-margin-top {
