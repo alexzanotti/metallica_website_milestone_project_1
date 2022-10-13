@@ -227,7 +227,8 @@ audio::-webkit-media-controls-panel {
 }
 
 .media-margin h3 {
-	color: #FF0000;
+	font-size: 16px;
+  color: #F78391;
 }
 
 .row div {
