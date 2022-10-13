@@ -1,3 +1,5 @@
+![alt text](assets/readme-files/readme-header.png "Website Snapshot")
+
 [Click Here to View the Website!](https://alexzanotti.github.io/metallica_website_milestone_project_1/)
 
 # Purpose
@@ -44,27 +46,27 @@ In order to pass this milstone project, the following requirements must be met:
 
 ### User Story 1
 * As a Metallica fan, I want to see images of the band throughout the years.
-![alt text](assets/readme-files/ "User Story 1")
+![alt text](assets/readme-files/user-story-1.png "User Story 1")
 
 ### User Story 2
 * As a Metallica fan, I want to watch interviews of the band, to know the band beyond just the music
-![alt text](assets/readme-files/ "User Story 2")
+![alt text](assets/readme-files/user-story-2.png "User Story 2")
 
 ### User Story 3
 * As a metal fan, I want to listen to audio samples of the band, to see whether i like the music 
-![alt text](assets/readme-files/ "User Story 3")
+![alt text](assets/readme-files/user-story-3.png "User Story 3")
 
 ### User Story 4
 * As a metal fan, I want to watch live music videos of some of the most popular songs
-![alt text](assets/readme-files/ "User Story 4")
+![alt text](assets/readme-files/user-story-4.png "User Story 4")
 
 ### User Story 5
 * As a user interested in learning more about Metallica, I want to have basic information about the band
-![alt text](assets/readme-files/ "User Story 5")
+![alt text](assets/readme-files/user-story-5.png "User Story 5")
 
 ### User Story 6
 * As a user interested in learning more about Metallica, I want to view information about the band members
-![alt text](assets/readme-files/ "User Story 6")
+![alt text](assets/readme-files/user-story-6.png "User Story 6")
 
 ## Value to users
 
