@@ -43,38 +43,43 @@ Finally, a Lighthouse Report is produced for each page of the website.
 The following screenshots demonstrate functionality and usability of the website:
 
 ##### Navigation Bar 
-![alt text](assets/testing-files/ "Header Hover")
-![alt text](assets/testing-files/ "Header Hover")
-![alt text](assets/testing-files/ "Header Hover")
-![alt text](assets/testing-files/ "Header Hover")
-![alt text](assets/testing-files/ "Header Hover")
-![alt text](assets/testing-files/ "Header Hover")
-![alt text](assets/testing-files/ "Header Hover")
-![alt text](assets/testing-files/ "Header Hover")
+![alt text](assets/testing-files/functionality/home-hover.png "Header Hover")
+![alt text](assets/testing-files/functionality/home-hover-link.png "Header Hover")
+![alt text](assets/testing-files/functionality/gallery-hover.png "Header Hover")
+![alt text](assets/testing-files/functionality/gallery-hover-link.png "Header Hover")
+![alt text](assets/testing-files/functionality/members-hover.png "Header Hover")
+![alt text](assets/testing-files/functionality/members-hover-link.png "Header Hover")
+![alt text](assets/testing-files/functionality/media-hover.png "Header Hover")
+![alt text](assets/testing-files/functionality/media-hover-link.png "Header Hover")
 
 ##### Social Links
-![alt text](assets/testing-files/ "Facebook Icon")
-![alt text](assets/testing-files/ "Facebook Link")
+![alt text](assets/testing-files/functionality/facebook-icon.png "Facebook Icon")
+![alt text](assets/testing-files/functionality/facebook-link.png "Facebook Link")
 ##### Twitter Link
-![alt text](assets/testing-files/ "Twitter Icon")
-![alt text](assets/testing-files/ "Twitter Link")
+![alt text](assets/testing-files/functionality/twitter-icon.png "Twitter Icon")
+![alt text](assets/testing-files/functionality/twitter-link.png "Twitter Link")
 ##### Instagram Link
-![alt text](assets/testing-files/ "Instagram Icon")
-![alt text](assets/testing-files/ "Instagram Link")
+![alt text](assets/testing-files/functionality/instagram-icon.png "Instagram Icon")
+![alt text](assets/testing-files/functionality/instagram-link.png "Instagram Link")
 ##### Youtube Link
-![alt text](assets/testing-files/ "Youtube Icon")
-![alt text](assets/testing-files/ "Youtube Link")
+![alt text](assets/testing-files/functionality/youtube-icon.png "Youtube Icon")
+![alt text](assets/testing-files/functionality/youtube-link.png "Youtube Link")
 
 ##### Sitemap Link
-![alt text](assets/testing-files/ "Sitemap Hover")
-![alt text](assets/testing-files/ "Sitemap Hover")
-![alt text](assets/testing-files/ "Sitemap Hover")
-![alt text](assets/testing-files/ "Sitemap Hover")
+![alt text](assets/testing-files/functionality/home-icon.png "Sitemap Hover")
+![alt text](assets/testing-files/functionality/home-icon.png "Sitemap Hover")
+![alt text](assets/testing-files/functionality/gallery-icon.png "Sitemap Hover")
+![alt text](assets/testing-files/functionality/gallery-icon.png "Sitemap Hover")
+![alt text](assets/testing-files/functionality/members-icon.png "Sitemap Hover")
+![alt text](assets/testing-files/functionality/members-icon.png "Sitemap Hover")
+![alt text](assets/testing-files/functionality/media-icon.png "Sitemap Hover")
+![alt text](assets/testing-files/functionality/media-icon.png "Sitemap Hover")
 
 ##### Video Plays
-![alt text](assets/testing-files/ "Video Plays")
+![alt text](assets/testing-files/functionality/video-play.png "Video Plays")
+
 ##### Audio Plays
-![alt text](assets/testing-files/ "Audio Plays")
+![alt text](assets/testing-files/functionality/audio-play.png "Audio Plays")
 
 
 #### Responsiveness 
@@ -83,37 +88,37 @@ A number of aspects of the website were designed to be responsive to the users d
 
 #### Header
 ##### Large
-![alt text](assets/testing-files/responsive-header-lg.png "Header Large")
+![alt text](assets/testing-files/responsiveness/header-large.png "Header Large")
 ##### Small
-![alt text](assets/testing-files/responsive-header-sm.png "Header Small")
+![alt text](assets/testing-files/responsiveness/header-small.png "Header Small")
 
 #### Footer
 ##### Large
-![alt text](assets/testing-files/responsive-footer-lg.png "Footer Large")
+![alt text](assets/testing-files/responsiveness/footer-large.png "Footer Large")
 ##### Small
-![alt text](assets/testing-files/responsive-footer-sm.png "Footer Small")
+![alt text](assets/testing-files/responsiveness/footer-small.png "Footer Small")
 
 #### Members
 ##### Large
-![alt text](assets/testing-files/responsive-members-lg.png "Members Large")
+![alt text](assets/testing-files/responsiveness/members-large.png "Members Large")
 ##### Small
-![alt text](assets/testing-files/responsive-members-sm.png "Members Small")
+![alt text](assets/testing-files/responsiveness/members-small.png "Members Small")
 
 #### Gallery
 ##### Large
-![alt text](assets/testing-files/responsive-gallery-lg.png "Gallery Large")
+![alt text](assets/testing-files/responsiveness/gallery-large.png "Gallery Large")
 ##### Medium
-![alt text](assets/testing-files/responsive-gallery-md.png "Gallery Medium")
+![alt text](assets/testing-files/responsiveness/gallery-medium.png "Gallery Medium")
 ##### Small
-![alt text](assets/testing-files/responsive-gallery-sm.png "Gallery Small")
+![alt text](assets/testing-files/responsiveness/gallery-small.png "Gallery Small")
 
 #### Audio
 ##### Large
-![alt text](assets/testing-files/responsive-audio-lg.png "Audio Large")
+![alt text](assets/testing-files/responsiveness/media-large.png "Audio Large")
 ##### Medium
-![alt text](assets/testing-files/responsive-audio-md.png "Audio Medium")
+![alt text](assets/testing-files/responsiveness/media-medium.png "Audio Medium")
 ##### Small
-![alt text](assets/testing-files/responsive-audio-sm.png "Audio Small")
+![alt text](assets/testing-files/responsiveness/media-small.png "Audio Small")
 
 
 ### Automated Testing
@@ -122,34 +127,38 @@ The W3C Markup Validator service was used to validate the HTML and CSS code used
 Below are screenshots showing each page of the project passing the validation checks.
 
 ### style.css
-![alt text](assets/testing-files/css-validation.png "style.css")
+![alt text](assets/testing-files/automated/css-validation.png "style.css")
 ### index.html
-![alt text](assets/testing-files/index-validation.png "index.html")
+![alt text](assets/testing-files/automated/index-validation.png "index.html")
 ### gallery.html
-![alt text](assets/testing-files/gallery-validation.png "gallery.html")
+![alt text](assets/testing-files/automated/gallery-validation.png "gallery.html")
 ### members.html
-![alt text](assets/testing-files/members-validation.png "members.html")
+![alt text](assets/testing-files/automated/members-validation.png "members.html")
 ### media.html
-![alt text](assets/testing-files/media-validation.png "media.html")
+![alt text](assets/testing-files/automated/media-validation.png "media.html")
 
 ### Browser Testing
 
 #### Chrome
-![alt text](assets/testing-files/ "members.html")
+* The Media page of the website is working correctly in Google Chrome
+![alt text](assets/testing-files/browsers/chrome.png "chrome browser")
 #### Firefox
-![alt text](assets/testing-files/ "members.html")
+* The Home page of the website is working correctly in Firefox
+![alt text](assets/testing-files/browsers/firefox.png "firefox")
 #### Edge
-![alt text](assets/testing-files/ "members.html")
+* The Band Members page of the website is working correctly in Edge
+![alt text](assets/testing-files/browsers/edge.png "edge")
 #### Safari
-![alt text](assets/testing-files/ "members.html")
+* The Gallery page of the website is working correctly in Safari
+![alt text](assets/testing-files/browsers/safari.png "safari")
 
 ### Lighthouse Report
 
 #### Home Page
-![alt text](assets/testing-files/ "members.html")
+![alt text](assets/testing-files/lighthouse/home.png "home page lighthouse report")
 #### Gallery Page
-![alt text](assets/testing-files/ "members.html")
+![alt text](assets/testing-files/lighthouse/gallery.png "members.html")
 #### Band Member Page
-![alt text](assets/testing-files/ "members.html")
+![alt text](assets/testing-files/lighthouse/members.png "members.html")
 #### Media Page
-![alt text](assets/testing-files/ "members.html")
+![alt text](assets/testing-files/lighthouse/media.png "members.html")
