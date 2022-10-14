@@ -2,17 +2,19 @@
 
 ## Testing Procedure
 
-Testing has been split into several sections. 
+Testing carried out in this project has been seperated into several types. 
 
-The first section of testing has been completed around validating that the user stories are met by the website.
+The first type of testing completed is around validating that the user stories are met by the website. Against each user story, evidence has been provided to ensure that the user stories are validated.
 
-Manual testing is the next section of testing - this is split between Functionality/Usability testing, which ensures that the website functions correctly are is useable by the user. The second part of manual testing to responsiveness testing - this ensures that the responsive design of the website is working correctly.
+Manual testing is the next section of testing - this is split between Functionality/Usability testing, which ensures that the website functions correctly and is useable by the user. 
 
-The next section of testing is automated testing - this looks at validating that the code itself is free from errors using.
+The second part of manual testing is responsiveness testing - this ensures that the responsive design of the website is working correctly.
 
-Browser testing is the next section of testing - this ensures that the website functions in multiple browsers.
+The next type of testing is automated testing - this looks at validating that the code itself is free from errors.
 
-Finally, a Lighthouse Report is produced for each page of the website.
+Browser testing is the next type of testing - this ensures that the website functions in multiple browsers.
+
+Finally, the last type of test is running a Lighthouse Report for each page of the website.
 
 ### User Story Testing
 
@@ -92,22 +94,22 @@ The following screenshots demonstrate functionality and usability of the website
 * Hovering over the Home icon in the footer works correctly in changing the color to red
 ![alt text](assets/testing-files/functionality/home-icon.png "Sitemap Home Hover")
 * Clicking the Home icon then takes you to the Home page correctly
-![alt text](assets/testing-files/functionality/home-icon.png "Sitemap Home Click")
+![alt text](assets/testing-files/functionality/home-link.png "Sitemap Home Click")
 
 * Hovering over the Gallery icon in the footer works correctly in changing the color to red
 ![alt text](assets/testing-files/functionality/gallery-icon.png "Sitemap Gallery Hover")
 * Clicking the Gallery icon then takes you to the Gallery page correctly
-![alt text](assets/testing-files/functionality/gallery-icon.png "Sitemap Gallery Click")
+![alt text](assets/testing-files/functionality/gallery-link.png "Sitemap Gallery Click")
 
 * Hovering over the Members icon in the footer works correctly in changing the color to red
 ![alt text](assets/testing-files/functionality/members-icon.png "Sitemap Members Hover")
 * Clicking the Members icon then takes you to the Members page correctly
-![alt text](assets/testing-files/functionality/members-icon.png "Sitemap Members Click")
+![alt text](assets/testing-files/functionality/members-link.png "Sitemap Members Click")
 
 * Hovering over the Media icon in the footer works correctly in changing the color to red
 ![alt text](assets/testing-files/functionality/media-icon.png "Sitemap Media Hover")
 * Clicking the Media icon then takes you to the Media page correctly
-![alt text](assets/testing-files/functionality/media-icon.png "Sitemap Media Click")
+![alt text](assets/testing-files/functionality/media-link.png "Sitemap Media Click")
 
 ##### Video Plays
 * When clicking play on the embedded video, the video begins
@@ -120,51 +122,51 @@ The following screenshots demonstrate functionality and usability of the website
 
 #### Responsiveness 
 
-A number of aspects of the website were designed to be responsive to the users device - below are screenshots showing the area in scope (Header etc.) and the design for the various breakpoints. This was completed using Media queries and the bootstrap framework.
+A number of aspects of the website were designed to be responsive to the users device - below are screenshots showing testing of the area in scope (Header etc.). This was completed using Media queries and the bootstrap framework.
 
 #### Header
-##### Large
+##### Large Screens
 * The header for larger screens displays the navbar inline and floating to the right. The image icon is floated to the left. The Metallica Image is correctly showing across 100% of the width of the screen.
 ![alt text](assets/testing-files/responsiveness/header-large.png "Header Large")
-##### Small
+##### Small Screens
 * Smaller screens correctly display the Navbar in block - the Metallica image is not displayed (which is correct).
 ![alt text](assets/testing-files/responsiveness/header-small.png "Header Small")
 
 #### Footer
-##### Large
+##### Large Screens
 * The footer contains the social and sitemap icons, displayed inline
 ![alt text](assets/testing-files/responsiveness/footer-large.png "Footer Large")
-##### Small
-* Due to width constraints, the social links and sitemap sections are displayed in rows (the icons remain inline however)
+##### Small Screens
+* Due to width constraints, the social links and sitemap sections are stacked (the icons remain inline)
 ![alt text](assets/testing-files/responsiveness/footer-small.png "Footer Small")
 
 #### Members
-##### Large
-* The Band Members page displays the information about the member alongside an image of the member on larger screens
+##### Large Screens
+* The Band Members page displays information and an image of the member side by side on larger screens
 ![alt text](assets/testing-files/responsiveness/members-large.png "Members Large")
-##### Small
-* The display changes to block for smaller screens
+##### Small Screens
+* The display changes for smaller screens to place the image below the information about the band member
 ![alt text](assets/testing-files/responsiveness/members-small.png "Members Small")
 
 #### Gallery
-##### Large
+##### Large Screens
 * The gallery correctly displays 3 columns when on larger screens
 ![alt text](assets/testing-files/responsiveness/gallery-large.png "Gallery Large")
-##### Medium
+##### Medium Screens
 * The gallery correctly displays 2 columns when on medium sized screens
 ![alt text](assets/testing-files/responsiveness/gallery-medium.png "Gallery Medium")
-##### Small
+##### Small Screens
 * The gallery correctly displays 1 column when on smaller screens
 ![alt text](assets/testing-files/responsiveness/gallery-small.png "Gallery Small")
 
 #### Audio
-##### Large
+##### Large Screens
 * The media page correctly displays 3 audio elements inline when on larger screens
 ![alt text](assets/testing-files/responsiveness/media-large.png "Audio Large")
-##### Medium
+##### Medium Screens
 * The media page correctly displays 2 audio elements inline when on medium sized screens
 ![alt text](assets/testing-files/responsiveness/media-medium.png "Audio Medium")
-##### Small
+##### Small Screens
 * The media page correctly displays 1 audio element per row when on smaller screens
 ![alt text](assets/testing-files/responsiveness/media-small.png "Audio Small")
 
