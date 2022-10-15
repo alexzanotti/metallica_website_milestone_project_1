@@ -76,6 +76,78 @@ Value has been provided to satisfy the various user profiles/stories, as the web
 
 In another example of value provided to the user, there is a user story for a metal fan to be able to listen to audio snippets of the band songs, to gauge whether they like the music produced by Metallica. To answer this user story, a media page has been created that contains an audio section, providing 30 seconds of some of the most popular Metallica songs. The user can start/stop these audio snippets to get a better understanding of whether they'll like the Metallica songs.
 
+## Development Planes
+
+### Strategy Plane
+Strategy incorporates user needs as well as product objectives. This website will focus on the following target audience, divided into three main categories:
+
+* Metallica Fans
+* Metal Fans
+* Users interested in learning more about Metallica
+
+#### Personality
+* Outgoing
+* Conscientious
+* Openness
+
+#### Demographic
+* All ages, due to the bands long existence
+
+### **Scope Plane**
+In scope for this project are the following requirements:
+
+* Display images of the band throughout the years
+* Watch interviews of the band
+* Listen to audio samples of the band
+* Watch live music videos of some of the most popular songs
+* Have basic information about the band
+* View information about the band members
+
+
+### Structure Plane
+The structure of the website will be as follows:
+* Home Page
+* Gallery Page
+* Band Members Page
+* Media Page
+
+This using the navbar and footer icons, the user will be able to move between each page of the website with ease.
+
+### Skeleton Plane
+In order to complete the skeleton plane, wireframes were made using [Balsamiq](https://balsamiq.com/). 
+
+### Balsamiq Wireframe Images
+Below are the Wireframes created in Balsamiq for this project:
+* Home Page Wireframe
+![alt text](assets/readme-files/home.png "Home Page Wireframe")
+* Gallery Page Wireframe
+![alt text](assets/readme-files/gallery.png "Gallery Page Wireframe")
+* Media Page Wireframe
+![alt text](assets/readme-files/media.png "Media Page Wireframe")
+* Band Members Page Wireframe
+![alt text](assets/readme-files/members.png "Members Page Wireframe")
+
+### Surface Plane
+
+The surface of this website endevours to replicate the Metallica branding - the following surface features have been deployed: 
+
+#### Colour Schemes
+
+The Colours used through this project are as follows:
+
+* White
+* Black
+* Red
+* Grey
+
+This colour scheme is based on the Metallica brand (cover albums etc.)
+
+#### Graphics
+
+Images were used throughout the project in an effort to replicate the Metallica branding. 
+
+For Example, the icon set in the head is an image of the Metallica brand.
+
 # Features
 The details of features on the site are detailed below.
 ## Head
@@ -130,13 +202,6 @@ GitPod was used for writing code, commiting, and then pushing to GitHub.
 GitHub was used as the repository for the code.
 ### Balsamiq
 Balsamiq was used to create the wireframes during the design of the project.
-
-#### Balsamiq Wireframe Images
-![alt text](assets/readme-files/home.png "Home Page Wireframe")
-![alt text](assets/readme-files/gallery.png "Gallery Page Wireframe")
-![alt text](assets/readme-files/media.png "Media Page Wireframe")
-![alt text](assets/readme-files/members.png "Members Page Wireframe")
-
 
 # Testing
 Testing information can be found the the following [file](TESTING.md "Link to testing file")
