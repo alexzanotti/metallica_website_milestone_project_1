@@ -131,6 +131,13 @@ GitHub was used as the repository for the code.
 ### Balsamiq
 Balsamiq was used to create the wireframes during the design of the project.
 
+#### Balsamiq Wireframe Images
+![alt text](assets/readme-files/home.png "Home Page Wireframe")
+![alt text](assets/readme-files/gallery.png "Gallery Page Wireframe")
+![alt text](assets/readme-files/media.png "Media Page Wireframe")
+![alt text](assets/readme-files/members.png "Members Page Wireframe")
+
+
 # Testing
 Testing information can be found the the following [file](TESTING.md "Link to testing file")
 
